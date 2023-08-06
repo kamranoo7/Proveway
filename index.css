@@ -1,0 +1,274 @@
+.heading{
+    text-align: center;
+    color: #007f61;
+font-family: sans-serif;
+font-size: 30px;
+}
+.heading p{
+    width: 27%;
+     margin: auto;
+   margin-bottom: 40px;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+   margin-top: 30px; 
+    font-size: 30px;
+}
+.heading p span{
+    background:#fff; 
+    padding:0 10px; 
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+.second{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 1.2px solid rgb(203, 197, 197);
+margin: auto;
+width: 28%;
+gap: 115px;
+height: 85px;
+border-radius: 5px;
+}
+body{
+    font-family: sans-serif;
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: -10px;
+}
+
+.second .third div h1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.second .third div p{
+    margin-top: -10px;
+    font-weight: 600;
+   
+    letter-spacing: 1px;
+}
+.second div h2{
+   font-size: 20px;
+   font-weight: 300;
+   font-family: sans-serif;
+}
+.second1{
+    display: flex;
+    background-color: #d1e0dd;
+    justify-content: center;
+border: 1.2px solid #007f61;
+margin: auto;
+width: 28%;
+gap: 115px;
+height: 175px;
+
+border-radius: 5px;
+margin-top: 20px;
+}
+body{
+    font-family: sans-serif;
+}
+.third1{
+    display: flex;
+   
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: -10px;
+   
+}
+
+.second1  div h2{
+   margin-top: -10px;
+   margin-left: 10px;
+    font-size: 20px;
+   
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.second1 .third1 div p{
+    margin-top: -10px;
+    font-weight: 600;
+ 
+    letter-spacing: 1px;
+}
+.second1 div h1{
+     color: #007f61;
+   font-size: 17px;
+   font-weight: 300;
+   font-family: sans-serif;
+}
+
+.second2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 1.2px solid rgb(203, 197, 197);
+margin: auto;
+width: 28%;
+gap: 115px;
+margin-top: 45px;
+height: 85px;
+border-radius: 5px;
+}
+body{
+    font-family: sans-serif;
+}
+.third2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: -10px;
+}
+
+.second2 .third2 div h1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.second2 .third2 div p{
+    margin-top: -10px;
+    font-weight: 600;
+   
+    letter-spacing: 1px;
+}
+.second2 div h2{
+   font-size: 20px;
+   font-weight: 300;
+   font-family: sans-serif;
+}
+.secondlast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 16px;
+}
+.secondlast div p{
+    color: #007f61;
+    font-size: 16;
+    font-weight: 500;
+}
+button{
+  
+    width: 28%;
+    background-color: #007f61;
+    border: 0px ;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    height: 54px;
+    margin: auto;
+}
+#btn{
+    display: flex;
+  justify-content:center;
+}
+.input{
+display: flex;
+margin-top: -120px;
+margin-left: -120px;
+gap: 20px;
+
+justify-content: center;
+align-items: center;
+}
+.input div p{
+   
+    font-size: 14px;
+}
+select{
+   
+   
+}
+.input2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -120px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .Total{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .Total h4{
+       
+        font-weight: 400;
+    }
+    .Total h5{
+        font-size: 17px;
+       
+    }
+    @media only screen and (max-width: 800px) {
+        .heading p span{
+           text-align: center;
+            width: 100%;
+            font-size: 20px;
+        }
+        .container {
+            padding: 10px;
+        }
+    
+        .heading p {
+            width: 50%;
+        }
+    
+        .second,
+        .second1,
+        .second2 {
+            flex-direction: row;
+            height: auto;
+           
+        }
+    
+        .second,
+        .second1,
+        .second2,
+        .input,
+        .input2,
+        .secondlast {
+            width: 90%;
+            margin: auto;
+        }
+    
+        .second div,
+        .second1 div,
+        .second2 div,
+        .secondlast div {
+            text-align: center;
+        }
+        .second1{
+          height: 180px;
+            margin-top: 10px;
+            background-color: #d1e0dd;
+        }
+       button{
+        width: 80%;
+       }
+       .input{
+        margin-top: -110px;
+       margin-left: -40px;
+        
+       }
+       .input2{
+        margin-left: -40px;
+       }
+       .second2{
+        margin-top: 40px;
+       }
+    }
+    
